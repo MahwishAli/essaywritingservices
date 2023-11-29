@@ -1,0 +1,120 @@
+Status
+    name
+    css_class
+
+customer___
+    name
+    email
+    country
+    phone
+
+order____
+
+topic
+    deadline
+    no_of_words
+    no_of_references
+
+    file_path
+
+    cost_per_page
+    total_cost
+
+    customer_id
+    papertype_id
+    subject_id
+    education_level_id
+    reference_style_id
+    status_id
+
+
+Fare
+    academic_level_id               per_page_price      deadline_id
+    1                               750                 1
+    2                               850                 2
+    2                               850                 2
+    2                               850                 2
+
+Academic Level
+    id      name
+    1       UnderGraduate
+
+Deadline
+    id      name        duration_in_days
+    1       15days      15
+
+
+     var s = document.getElementById('order_deadline').value;
+    var h = document.getElementById('order_no_of_pages').value;
+
+    if (document.getElementById('order_academic_level').value == "Undergraduate") {
+
+                if (s == 15) {
+
+    var result = Math.round(750 * 12 * 100) / 100;
+
+
+10-essay-on-allama-iqbal
+11-earn-money-online-by-doing-assignments
+12-essay-on-democracy-in-pakistan
+13-essay-on-future-of-pakistan
+14-essay-on-festivals-in-pakistan
+15-thesis-proposal-according-to-pakistan-standard
+16-best-thing-to-do-in-pakistan-on-a-students-budget
+17-how-can-educational-system-be-strong-in-pakistan
+18-essay-on-pakistan
+19-how-to-become-a-writer-in-pakistan
+3-a-brief-essay-on-coronavirus
+4-essay-on-kashmir-issue
+5-essay-on-education-in-pakistan
+6-essay-on-energy-crisis-in-pakistan
+7-essay-on-quaid-e-azam
+8-essay-on-corruption-in-pakistan
+9-essay-on-terrorism-in-pakistan
+
+
+UPDATE blogs SET slug='impact-of-coronavirus-pandemic-on-education-system-in-pakistan-and-ways-to-improve' WHERE id = 2
+UPDATE blogs SET slug='a-brief-essay-on-coronavirus' WHERE id = 3
+UPDATE blogs SET slug='essay-on-kashmir-issue' WHERE id = 4
+UPDATE blogs SET slug='essay-on-education-in-pakistan' WHERE id = 5
+UPDATE blogs SET slug='essay-on-energy-crisis-in-pakistan' WHERE id = 6
+UPDATE blogs SET slug='essay-on-quaid-e-azam' WHERE id = 7
+UPDATE blogs SET slug='essay-on-corruption-in-pakistan' WHERE id = 8
+UPDATE blogs SET slug='essay-on-terrorism-in-pakistan' WHERE id = 9
+UPDATE blogs SET slug='earn-money-online-by-doing-assignments' WHERE id = 11
+UPDATE blogs SET slug='essay-on-democracy-in-pakistan' WHERE id = 12
+UPDATE blogs SET slug='essay-on-future-of-pakistan' WHERE id = 13
+UPDATE blogs SET slug='essay-on-festivals-in-pakistan' WHERE id = 14
+UPDATE blogs SET slug='thesis-proposal-according-to-pakistan-standard' WHERE id = 15
+UPDATE blogs SET slug='best-thing-to-do-in-pakistan-on-a-students-budget' WHERE id = 16
+UPDATE blogs SET slug='how-can-educational-system-be-strong-in-pakistan' WHERE id = 17
+UPDATE blogs SET slug='essay-on-pakistan' WHERE id = 18
+UPDATE blogs SET slug='how-to-become-a-writer-in-pakistan' WHERE id = 19
+
+UPDATE blogs SET slug =
+        CASE
+            id
+                WHEN 1 THEN  'benefits-of-co-working-an-alternate-of-working-at-home'
+                WHEN 2 THEN  'impact-of-coronavirus-pandemic-on-education-system-in-pakistan'
+                WHEN 3 THEN  'essay-on-coronavirus'
+                WHEN 4 THEN  'essay-on-kashmir-issue'
+                WHEN 5 THEN  'essay-on-education-in-pakistan'
+                WHEN 6 THEN  'essay-on-energy-crisis-in-pakistan'
+                WHEN 7 THEN  'essay-on-quaid-e-azam'
+                WHEN 8 THEN  'essay-on-corruption-in-pakistan'
+                WHEN 9 THEN  'essay-on-terrorism-in-pakistan'
+                WHEN 10 THEN  'essay-on-allama-iqbal'
+                WHEN 11 THEN  'earn-money-online-by-doing-assignments'
+                WHEN 12 THEN  'essay-on-democracy-in-pakistan'
+                WHEN 13 THEN  'essay-on-future-of-pakistan'
+                WHEN 14 THEN  'essay-on-festivals-in-pakistan'
+                WHEN 15 THEN  'thesis-proposal-according-to-pakistan-standard'
+                WHEN 16 THEN  'best-thing-to-do-in-pakistan-on-a-students-budget'
+                WHEN 17 THEN  'how-can-educational-system-be-strong-in-pakistan'
+                WHEN 18 THEN  'essay-on-pakistan'
+                WHEN 19 THEN  'how-to-become-a-writer-in-pakistan'
+        ELSE
+            slug
+        END
+
+ WHERE id IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19) ;

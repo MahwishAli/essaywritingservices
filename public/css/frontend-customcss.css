@@ -1,0 +1,25 @@
+.g-color {
+    background: -webkit-linear-gradient(right, #73c04e, #26ACE2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a#priceTag::after {
+    content: "";
+    border-top-color: #1e7a89 !important;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px 10px 0;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 5px;
+}
+
+@media (max-width: 1024px) {
+    a#priceTag::after {
+        display: none;
+    }
+}
