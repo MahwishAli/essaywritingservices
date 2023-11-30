@@ -7,14 +7,14 @@
 @section('content')
     {{-- Hero Section --}}
     <section class="bg-light hero">
-        <div class="container">
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-md-6 my-auto text-center text-md-left">
                     <div class="ml-md-4 mt-5 mt-sm-0">
                         <h1 class="text-primary-color">
                             Grade-Winning Cheap Essay Writing Service UK - Starting from £4 Only <br />
                         </h1>
-                        <h4 class="text-dark">
+                        <h4 class="text-dark font-weight-normal mt-2 mb-2">
                             How dreadful it’s to wake up with urgent submission deadlines, stress and no affordable help in the last hours? That’s where we come to the rescue. Our cheap essay writing service UK helps you relieve the burden with praise-worthy essays that your professors will love. Get started today!
                         </h4>
                         <div class="d-flex flex-column flex-lg-row pt-4">
@@ -225,18 +225,18 @@
                     <h3 class="h2 py-3 main-heading text-primary-color text-center">
                         How Much Will it Cost if I Hire You to “Write My Essay UK?”
                     </h3>
-                    <p class="text-dark-gray mb-3 text-center">
+                    <p class="text-dark-gray mb-3">
                         Our service charges start as low as £4/page. The pricing exceeds as per the requirements and the complexity of the subjects but no matter how extended the requirements are, our pricing will always remain affordable for students. That’s because we understand how tough it’s for students to take out a budget to hire cheap UK essay writers. Some writers are way too expensive while others who are budget-friendly don't seem to provide Quality services. So, it becomes hard to find a balance between both. 
                     </p>
-                    <p class="text-dark-gray mb-3 text-center">
+                    <p class="text-dark-gray mb-3 ">
                         But don’t you worry, you can trust our Essay Writing Services as we have been in this field for more than 5 years and are helping students grow by eliminating academic chaos from their lives. Our academic help is both cost-effective and tailored to the requirements you wish to have in your papers. 
                     </p>
-                    <ul class="list-unstyled text-center">
-    <li><strong>100% Satisfaction Guaranteed</strong></li>
-    <li><strong>Research & Quality-Driven</strong></li>
-    <li><strong>Prompt Customer Support</strong></li>
-    <li><strong>Niche Experts</strong></li>
-</ul>
+                    <ul class="list-styled ml-4">
+                        <li><strong>100% Satisfaction Guaranteed</strong></li>
+                        <li><strong>Research & Quality-Driven</strong></li>
+                        <li><strong>Prompt Customer Support</strong></li>
+                        <li><strong>Niche Experts</strong></li>
+                    </ul>
                     <div class="text-center py-4">
                         <a href="{{ route('order') }}" class="btn btn-primary bgcolor borderbtn1 pl-4 pr-4">
                         Order Now
@@ -251,14 +251,14 @@
             </div>
         </div>
     </section>
-     {{-- img divider --}}
-     <div class="img-divider">
+    {{-- img divider --}}
+    <div class="img-divider">
         <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
     </div>
     
     {{-- We offer Section --}}
-    <section class="text-center py-5 bg-white">
-        <div class="container">
+    <section class="text-center mt-2 py-5 bg-white">
+        <div class="container mt-5 mb-5">
             <h4 class="pb-5 main-heading text-center">Cheapest Pricing Packages</h4>
             <div class="row">
                 <div class="col-sm-12 px-5 px-md-2 col-lg-4">
@@ -321,7 +321,7 @@
     </div>
     {{-- Types of Services Section --}}
     <section class="mt-2 py-5 bg-light-gray mt-1">
-        <div class="container">
+        <div class="container mt-5 mb-5">
             <div class="text-center">
                 <h3 class="main-heading">Custom Essay Writing Service UK - Get All Types of Paper from One Platform</h3>
                 <p>
@@ -404,6 +404,264 @@
             </div>
         </div>
     </section>
+
+    {{-- img divider --}}
+    <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    {{-- Time to Relieve Section --}}
+    <section class="mt-2 section5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5 text-center text-sm-left">
+                    <h3 class="h2 pt-5 main-heading text-primary-color">
+                        Time to Wave Goodbye to Stress with Our Cheap Essay Help London
+                    </h3>
+                    <p class="text-dark-gray mb-3">
+                        Do you know any essay writing websites that guarantee quality services at cheap rates? No? That’s what we cater to.
+                    </p>
+                    <p class="text-dark-gray mb-3">
+                        We are a team of the best essay writers in UK who have only one mission in life and that’s to empower students without being a burden on their pockets. No matter which region you belong to in London, Manchester, Cambridge, Oxford, Southampton, Birmingham, Durham, Edinburgh, Glasgow, Bristol, Liverpool, Leeds or any other in the UK, our cheap writing help is open to help you anytime.
+                    </p>
+                    <p class="text-dark-gray mb-3">
+                        The best part is that we not only give cheap services but are also open to receiving urgent essay writing services requests to rescue you in the nick of time. From writing an essay from scratch to making it unique to your requirements, we ensure you get more than you expect from us. Still struggling or afraid to face the challenges? Connect with us today!
+                    </p>
+                    <a href="{{ route('order') }}" class="btn btn-primary bgcolor borderbtn1 pl-4 pr-4">
+                        Order Now
+                    </a>
+                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-primary bgcolor borderbtn2 pl-4 pr-4 ml-lg-5">
+                        Live Chat
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-auto">
+                    <img src="{{ asset('imgs/images/part.png') }}" alt="Essay Writing Service" class="w-100" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     {{-- img divider --}}
+     <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    <section class="mt-2 section5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-auto">
+                    <img src="{{ asset('imgs/images/part.png') }}" alt="Essay Writing Service" class="w-100" />
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5 text-left text-sm-left px-5">
+                    <h3 class="h2 py-3 main-heading text-primary-color">
+                        One of the Top UK Essay Writing Companies Who Delivers Premium Human Written Content
+                    </h3>
+                    <p class="text-dark-gray mb-3 text-center">
+                        While other companies use AI tools to generate essays, we are pioneers in writing craft that meets your requirements. Instead of taking help from bots, we believe in researching and writing content that includes creative ideas and elements to set you apart from other students. Taking help from our best essay writers in the UK won't only give you an edge in your essays but will also let you shine among your peers. 
+                    </p>
+                    <p class="text-dark-gray mb-3 text-center">
+                        Additionally, automated content doesn’t assure success and unique factors in an essay so instead of believing in what machines are generating, take help from the prolific writers who can deliver results without the help of tools. And the best part is we have field experts in our team so no matter on which subject you seek help, our services will always be value-driven to your career. Along with the quality, affordable pricing is a bonus. So, what’s the wait for? 
+                    </p>
+                    <div class="text-center py-4">
+                        <a href="{{ route('order') }}" class="btn btn-primary bgcolor borderbtn1 pl-4 pr-4">
+                        Order Now
+                    </a>
+                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-primary bgcolor borderbtn2 pl-4 pr-4 ml-lg-5">
+                        Live Chat
+                    </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+     {{-- img divider --}}
+     <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    <section class="mt-2 section5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5 px-5">
+                    <h3 class="h2 py-3 main-heading text-center text-primary-color">Custom Essay Writing Service UK by the Best Essay Writers</h3>
+                    <p class="text-center">Getting your paper done by the best essay writers in the UK is no longer an unachievable task as we bring them to your service via our platform. Our writers write your essays exactly to the standard you need in terms of requirements, grades, and complexity. If you’re tired of rejection, missed deadlines, and eleventh-hour submissions, we know how to get it all sorted.</p>
+                    <p class="text-center">Not only this, our customer assistance services are available round the clock. So, no worries if you wake up in the middle of the night dreading submissions or fear of missing the deadline, we are only an order away from you. Our affordable essay writing services are available in London, Manchester, Cambridge, Durham and any other region in the UK. Let’s get started!</p>
+
+                    <h2 class="mt-4 main-heading text-center text-primary-color">Our Remarkable Stats</h2>
+                    <div class="row remarkable mt-4 ">
+                        <div class="col-md-3 ">
+                            <p class="counter">10,000+</p>
+                            <p class="heading">Essays Delivered</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="counter">25+</p>
+                            <p class="heading">Team of Expert Writers</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="counter">96%</p>
+                            <p class="heading">Success Ratio</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p class="counter">5555+</p>
+                            <p class="heading">Happy Clients</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-center support mt-4 ">24/7 Support Services</p>
+                    <p class="text-center urgent">Submissions in 24 Hours for Urgent Essays</p>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     {{-- img divider --}}
+     <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    {{-- Testinomial Section --}}
+    <section class="mt-2 section5">
+        <div class="container-fluid px-3 px-sm-5 text-center">
+            <h4 class="main-heading text-white mb-5">Our Happy Customers</h4>
+            <div class="owl-carousel owl-theme">
+                <div class="item first prev">
+                    <div class="card border-0 py-3 px-4">
+                        <div class="row justify-content-center">
+                            <img src="{{asset('imgs/images/t3.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
+                        </div>
+                        <p class="content mx-2">
+                            <i class="fa fa-quote-left"></i>
+                            I hire them for my university essays and I must say that they exceeded my expectations. One thing I like about them is that their services aren’t over-priced. Going to come here again.
+                        </p>
+                        <div class="row mx-auto mb-3">
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                        </div>
+                        <h6 class="mb-3 mt-2">
+                            <b class="testimo-title">Adam</b><br />London
+                        </h6>
+                    </div>
+                </div>
+                <div class="item show">
+                    <div class="card border-0 py-3 px-4">
+                        <div class="row justify-content-center">
+                            <img src="{{asset('imgs/images/t2.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
+                        </div>
+                        <p class="content mx-2">
+                            <i class="fa fa-quote-left"></i>
+                            I was afraid to work with them first but when I received my order, I was surprised. They weren’t only responsive throughout the time but also make sure that the essays are perfect.
+                        </p>
+                        <div class="row mx-auto mb-3">
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                        </div>
+                        <h6 class="mb-3 mt-2">
+                            <b class="testimo-title">Mariah</b><br />
+                            Bristol
+                        </h6>
+                    </div>
+                </div>
+                <div class="item next">
+                    <div class="card border-0 py-3 px-4">
+                        <div class="row justify-content-center">
+                            <img src="{{asset('imgs/images/t4.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
+                        </div>
+                        <p class="content mx-2">
+                            <i class="fa fa-quote-left"></i>
+                            Best writing support at best prices. Highly recommend it to students especially if you are looking for cheap essay help and quality work together. 
+                        </p>
+                        <div class="row mx-auto mb-3">
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                        </div>
+                        <h6 class="mb-3 mt-2">
+                            <b class="testimo-title">Samantha</b><br />UK
+                        </h6>
+                    </div>
+                </div>
+                <div class="item last">
+                    <div class="card border-0 py-3 px-4">
+                        <div class="row justify-content-center">
+                            <img src="{{asset('imgs/images/t1.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
+                        </div>
+                        <p class="content mx-2">
+                            Outstanding Service! Provided everything on time. I was impressed by their analysis and summary writing skills. I also want to highlight their prompt customer support services who tackled my queries pretty well. Not only are they perfect for cheap essay help but you can also pursue them for other writing work. Overall Great Experience!
+                        </p>
+                        <div class="row mx-auto mb-3">
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-star fa-2x"></i>
+                        </div>
+                        <h6 class="mb-3 mt-2">
+                            <b class="testimo-title">Sofia</b><br />Birmingham
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+    {{-- img divider --}}
+    <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    <section class="mapSection bg-light py-5">
+        <h3 class="pt-5 main-heading text-center ">
+            UK Based Essay Writing Services but aren’t Limited to Writing, <br>Get Proofreading & Editing Services Too
+        </h3>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 pt-4">
+                    <p class="text-dark-gray">
+                        So your concern is that you have written the essay yourself but you aren’t sure whether you should submit or not? You want someone to proofread with an eagle’s eye? Then don't worry as our team of editors and proofreaders can assist you in this. Send us your draft and we can suggest to you how to enhance it to get closer to remarkable grades. 
+                    </p>
+                    <p class="text-dark-gray">
+                        Committing to excellence, our writers can work on all topics including Finance, Medical, History, Law, Business or Research Papers. So, whether you want editing services or want us to write from scratch, feel free to reach out and you will be amazed to the core, that’s our guarantee. 
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-0">
+                    <img class="img-fluid map" src="{{ asset('imgs/images/mapings.png') }}">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- section cheap essay help --}}
+       {{-- img divider --}}
+    <div class="img-divider">
+        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
+    </div>
+    <section class="mt-2 section5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5 px-5">
+                    <h3 class="h2 py-3 main-heading text-center text-primary-color">Cheap Essay Help UK for Thriving Grades & Performance Beyond Expectations </h3>
+                    <p class="text-center">
+                        As a student, you have only one dream which is to shine in your academics by winning grades. It gives you confidence among your fellows and also inspiration to achieve more in your career. Moreover, you can keep your head high with an impressive performance graph. But what’s stopping you from chasing this dream? Is it your tight budget?
+                    </p>
+                    <p class="text-center">
+                        If that’s the case then you don’t need to have wrinkles on your head because we are here to sort it out. Our UK based cheap essay writing caters to this specific problem by offering cheap writing help in all types of services. You can talk to our best essay writers in UK and get a tailored approach on your requirements. From brainstorming ideas to refining your draft we give you timely support to seek academic excellence and reach new heights of exploration. 
+                    </p>
+                    <p class="text-center">
+                        So, now it's your time to join other students in London who have already unlocked the door to success with our affordable services. No matter, if  the essay is complex or you require assistance in any specific field, feel free to reach out and you will be receiving the best support and cheap essay help from our platform. 
+                    </p>
+                </div>    
+            </div>
+        </div>
+    </section>
+
     {{-- img divider --}}
     <div class="img-divider">
         <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
@@ -472,7 +730,7 @@
                             <i class="fa fa-star fa-2x"></i>
                         </div>
                         <h6 class="mb-3 mt-2">
-                            <b class="testimo-title">3.	Duc Vu Alan</b><br />
+                            <b class="testimo-title">Duc Vu Alan</b><br />
                         </h6>
                     </div>
                 </div>
@@ -776,199 +1034,7 @@
             </div>
         </div>
     </section>
-    {{-- img divider --}}
-    <div class="img-divider">
-        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
-    </div>
-    {{-- Time to Relieve Section --}}
-    <section class="mt-2 section5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5 text-center text-sm-left">
-                    <h3 class="h2 pt-5 main-heading text-primary-color">
-                        Time to Wave Goodbye to Stress with Our Cheap Essay Help London
-                    </h3>
-                    <p class="text-dark-gray mb-3">
-                        Do you know any essay writing websites that guarantee quality services at cheap rates? No? That’s what we cater to.
-                    </p>
-                    <p class="text-dark-gray mb-3">
-                        We are a team of the best essay writers in UK who have only one mission in life and that’s to empower students without being a burden on their pockets. No matter which region you belong to in London, Manchester, Cambridge, Oxford, Southampton, Birmingham, Durham, Edinburgh, Glasgow, Bristol, Liverpool, Leeds or any other in the UK, our cheap writing help is open to help you anytime.
-                    </p>
-                    <p class="text-dark-gray mb-3">
-                        The best part is that we not only give cheap services but are also open to receiving urgent essay writing services requests to rescue you in the nick of time. From writing an essay from scratch to making it unique to your requirements, we ensure you get more than you expect from us. Still struggling or afraid to face the challenges? Connect with us today!
-                    </p>
-                    <a href="{{ route('order') }}" class="btn btn-primary bgcolor borderbtn1 pl-4 pr-4">
-                        Order Now
-                    </a>
-                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-primary bgcolor borderbtn2 pl-4 pr-4 ml-lg-5">
-                        Live Chat
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-auto">
-                    <img src="{{ asset('imgs/images/part.png') }}" alt="Essay Writing Service" class="w-100" />
-                </div>
-            </div>
-        </div>
-    </section>
-     {{-- img divider --}}
-     <div class="img-divider">
-        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
-    </div>
-    <section class="mt-2 section5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-auto">
-                    <img src="{{ asset('imgs/images/part.png') }}" alt="Essay Writing Service" class="w-100" />
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5 text-left text-sm-left px-5">
-                    <h3 class="h2 py-3 main-heading text-primary-color">
-                        One of the Top UK Essay Writing Companies Who Delivers Premium Human Written Content
-                    </h3>
-                    <p class="text-dark-gray mb-3 text-center">
-                        Our service charges start as low as £4/page. The pricing exceeds as per the requirements and the complexity of the subjects but no matter how extended the requirements are, our pricing will always remain affordable for students. That’s because we understand how tough it’s for students to take out a budget to hire cheap UK essay writers. Some writers are way too expensive while others who are budget-friendly don't seem to provide Quality services. So, it becomes hard to find a balance between both. 
-                    </p>
-                    <p class="text-dark-gray mb-3 text-center">
-                        But don’t you worry, you can trust our Essay Writing Services as we have been in this field for more than 5 years and are helping students grow by eliminating academic chaos from their lives. Our academic help is both cost-effective and tailored to the requirements you wish to have in your papers. 
-                    </p>
-                    <ul class="list-unstyled">
-    <li><strong>100% Satisfaction Guaranteed</strong></li>
-    <li><strong>Research & Quality-Driven</strong></li>
-    <li><strong>Prompt Customer Support</strong></li>
-    <li><strong>Niche Experts</strong></li>
-</ul>
-                    <div class="text-center py-4">
-                        <a href="{{ route('order') }}" class="btn btn-primary bgcolor borderbtn1 pl-4 pr-4">
-                        Order Now
-                    </a>
-                    <a href="javascript:void(Tawk_API.toggle())" class="btn btn-primary bgcolor borderbtn2 pl-4 pr-4 ml-lg-5">
-                        Live Chat
-                    </a>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </section>
-     {{-- img divider --}}
-     <div class="img-divider">
-        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
-    </div>
-    {{-- Testinomial Section --}}
-    <section class="mt-2 section5">
-        <div class="container-fluid px-3 px-sm-5 text-center">
-            <h4 class="main-heading text-white mb-5">Our Happy Customers</h4>
-            <div class="owl-carousel owl-theme">
-                <div class="item first prev">
-                    <div class="card border-0 py-3 px-4">
-                        <div class="row justify-content-center">
-                            <img src="{{asset('imgs/images/t3.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
-                        </div>
-                        <p class="content mx-2">
-                            <i class="fa fa-quote-left"></i>
-                            I hire them for my university essays and I must say that they exceeded my expectations. One thing I like about them is that their services aren’t over-priced. Going to come here again.
-                        </p>
-                        <div class="row mx-auto mb-3">
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                        </div>
-                        <h6 class="mb-3 mt-2">
-                            <b class="testimo-title">Adam</b><br />London
-                        </h6>
-                    </div>
-                </div>
-                <div class="item show">
-                    <div class="card border-0 py-3 px-4">
-                        <div class="row justify-content-center">
-                            <img src="{{asset('imgs/images/t2.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
-                        </div>
-                        <p class="content mx-2">
-                            <i class="fa fa-quote-left"></i>
-                            I was afraid to work with them first but when I received my order, I was surprised. They weren’t only responsive throughout the time but also make sure that the essays are perfect.
-                        </p>
-                        <div class="row mx-auto mb-3">
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                        </div>
-                        <h6 class="mb-3 mt-2">
-                            <b class="testimo-title">Mariah</b><br />
-                            Bristol
-                        </h6>
-                    </div>
-                </div>
-                <div class="item next">
-                    <div class="card border-0 py-3 px-4">
-                        <div class="row justify-content-center">
-                            <img src="{{asset('imgs/images/t4.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
-                        </div>
-                        <p class="content mx-2">
-                            <i class="fa fa-quote-left"></i>
-                            Best writing support at best prices. Highly recommend it to students especially if you are looking for cheap essay help and quality work together. 
-                        </p>
-                        <div class="row mx-auto mb-3">
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                        </div>
-                        <h6 class="mb-3 mt-2">
-                            <b class="testimo-title">Samantha</b><br />UK
-                        </h6>
-                    </div>
-                </div>
-                <div class="item last">
-                    <div class="card border-0 py-3 px-4">
-                        <div class="row justify-content-center">
-                            <img src="{{asset('imgs/images/t1.jpg')}}" class="img-fluid profile-pic mb-4 mt-3" />
-                        </div>
-                        <p class="content mx-2">
-                            Outstanding Service! Provided everything on time. I was impressed by their analysis and summary writing skills. I also want to highlight their prompt customer support services who tackled my queries pretty well. Not only are they perfect for cheap essay help but you can also pursue them for other writing work. Overall Great Experience!
-                        </p>
-                        <div class="row mx-auto mb-3">
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                        </div>
-                        <h6 class="mb-3 mt-2">
-                            <b class="testimo-title">Sofia</b><br />Birmingham
-                        </h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- img divider --}}
-    <div class="img-divider">
-        <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">
-    </div>
-    <section class="mapSection bg-light py-5">
-        <h3 class="pt-5 main-heading text-center ">
-            UK Based Essay Writing Services but aren’t Limited to Writing, <br>Get Proofreading & Editing Services Too
-        </h3>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-12 pt-4">
-                    <p class="text-dark-gray">
-                        So your concern is that you have written the essay yourself but you aren’t sure whether you should submit or not? You want someone to proofread with an eagle’s eye? Then don't worry as our team of editors and proofreaders can assist you in this. Send us your draft and we can suggest to you how to enhance it to get closer to remarkable grades. 
-                    </p>
-                    <p class="text-dark-gray">
-                        Committing to excellence, our writers can work on all topics including Finance, Medical, History, Law, Business or Research Papers. So, whether you want editing services or want us to write from scratch, feel free to reach out and you will be amazed to the core, that’s our guarantee. 
-                    </p>
-                </div>
 
-            </div>
-        </div>
-    </section>
     {{-- img divider --}}
     <div class="img-divider">
         <img src="{{ asset('imgs/section-img-1.png') }}" height="100" alt="Essay Writing Service">

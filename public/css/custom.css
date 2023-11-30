@@ -34,6 +34,10 @@ ul {
     margin-bottom: 0px;
 }
 
+ul.list-styled{
+    list-style: square;
+}
+
 p {
     font-family: "Rubik", sans-serif;
     font-size: 14px;
@@ -2203,12 +2207,8 @@ button:focus {
 .section .container {
     width: 90%;
 }
-.mapSection {
-    background-image: url("../imgs/images/maping.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 550px;
+.img-fluid.map {
+    max-width: 140% !important;
 }
 
 @media (max-width: 992px) {
@@ -2446,4 +2446,38 @@ div.dt-button-collection {
 .buttons-columnVisibility.active {
     background-color: rgba(128, 128, 128, 0.1);
     font-weight: bolder;
+}
+
+/* mahwish styling */
+
+.row.remarkable {
+  display: flex;
+  justify-content: space-around;
+}
+
+.remarkable .col-md-3 {
+    max-width: 22% !important;
+    background-color: #ff7f24; /* Background color */
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+.remarkable .col-md-3:hover {
+    transform: scale(1.05); /* Scale up the box on hover */
+}
+p.counter {
+    font-size: xx-large;
+    color: white;
+    font-weight: 500;
+}
+p.heading {
+    color: white;
+    font-size: 19px;
+    font-weight: 100;
+}
+p.support, p.urgent {
+    font-size: large;
 }
