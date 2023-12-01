@@ -100,7 +100,15 @@ Route::group(['namespace' => 'Web'], function () {
     Route::get('/pricing-plans',             "PagesController@plans")->name('plans');
     Route::get('/reviews',                   "PagesController@reviews")->name('reviews');
     Route::get('/samples',                   "PagesController@samples")->name('samples');
-    Route::post('/get-fare',    "PagesController@getFare")->name('fare.guest');
+    Route::post('/get-fare',                 "PagesController@getFare")->name('fare.guest');
+
+    // Services pages
+    Route::get('/assignment-writing',                   "PagesController@assignment")->name('assignment');
+    Route::get('/thesis-writing',                       "PagesController@thesis")->name('thesis');
+    Route::get('/coursework-writing',                   "PagesController@coursework")->name('coursework');
+    Route::get('/dissertation-writing',                 "PagesController@dissertation")->name('dissertation');
+    Route::get('/powerpoint-design-service',            "PagesController@powerpoint")->name('powerpoint');
+    Route::get('/buy-assignment',                       "PagesController@buyAssignment")->name('buy.assignment');
 
     //Order
     Route::get('/order', 'OrderController@create')->name('order');

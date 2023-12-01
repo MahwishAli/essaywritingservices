@@ -15,19 +15,20 @@
                     <a class="nav-link" href="{{route('about')}}">About</a>
                 </li>
 
-                {{-- <li class="nav-item dropdown">
+                <li class="nav-item dropdown" >
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Serivces
+                       aria-haspopup="true" aria-expanded="false">
+                        Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Service 1</a>
-                        <a class="dropdown-item" href="#">Service 2</a>
-                        <a class="dropdown-item" href="#">Service 3</a>
+                    <div class="dropdown-menu services" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ route('assignment') }}">Assignment Writing</a>
+                        <a class="dropdown-item" href="{{ route('thesis') }}">Best Thesis Writing</a>
+                        <a class="dropdown-item" href="{{ route('coursework') }}">Coursework Writing</a>
+                        <a class="dropdown-item" href="{{ route('dissertation') }}">Dissertation Writing</a>
+                        <a class="dropdown-item" href="{{ route('powerpoint') }}">PowerPoint Presentation Design Services</a>
+                        <a class="dropdown-item" href="{{ route('buy.assignment') }}">Buy Assignment </a>
                     </div>
-                </li> --}}
-
-
+                </li>
 
                 <li class="nav-item {{request()->routeIs('samples')  ? "active" : "" }}">
                     <a class="nav-link" href="{{route('samples')}}">Samples</a>
@@ -60,3 +61,14 @@
         </div>
     </div>
 </nav>
+<script>
+    function showDropdown(element) {
+        var dropdownMenu = element.querySelector('.dropdown-menu.services');
+        dropdownMenu.classList.add('show');
+    }
+
+    function hideDropdown(element) {
+        var dropdownMenu = element.querySelector('.dropdown-menu.services');
+        dropdownMenu.classList.remove('show');
+    }
+</script>

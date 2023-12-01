@@ -191,18 +191,18 @@
                     <ul class="ul">
                         <li>
                             <p class="li_p">
-                                        Many times when you’re looking to seek professional help, it becomes difficult to decide who you should consult for assistance. Since, writing an A-grade essay requires expertise on the subject, a knack for writing and exceptional style to win the grades, students shouldn’t take the burden on themselves. 
-                                    </p>
+                                Many times when you’re looking to seek professional help, it becomes difficult to decide who you should consult for assistance. Since, writing an A-grade essay requires expertise on the subject, a knack for writing and exceptional style to win the grades, students shouldn’t take the burden on themselves. 
+                            </p>
                         </li>
                         <li>
                             <p class="li_p">
-                                        Here at Essay Writing Services, we have a top-notch team of writers who can assist you in writing excellent essays regardless of the subject. Not only they can assist but can also help you in editing your essays. Whether you want to take help from Professors, Business Experts or Writers, you can contact our team without any hassles and pursue your academic journey with shining grades. 
-                                    </p>
+                                Here at Essay Writing Services, we have a top-notch team of writers who can assist you in writing excellent essays regardless of the subject. Not only they can assist but can also help you in editing your essays. Whether you want to take help from Professors, Business Experts or Writers, you can contact our team without any hassles and pursue your academic journey with shining grades. 
+                            </p>
                         </li>
                         <li>
                             <p class="li_p">
-                                        Apart from the prolific essay writers, our cheap reliable essay writing service UK also guarantees Quality and research-driven submissions. From brainstorming ideas to generating craft based on your requirements, you can get in touch with our team to have a seamless experience and get away with the academic load that’s causing sleepless nights and trouble.
-                                    </p>
+                                Apart from the prolific essay writers, our cheap reliable essay writing service UK also guarantees Quality and research-driven submissions. From brainstorming ideas to generating craft based on your requirements, you can get in touch with our team to have a seamless experience and get away with the academic load that’s causing sleepless nights and trouble.
+                            </p>
                         </li>
                     </ul>
                 </div>

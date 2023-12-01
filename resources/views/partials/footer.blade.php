@@ -33,10 +33,12 @@
                 Services
             </div>
             <div class="footer-menu-list">
-                <a href="#"> CV Writing </a>
-                <a href="#"> Essay Writing </a>
-                <a href="#"> Thesis Writing </a>
-                <a href="#"> Dessertation Writing </a>
+                <a href="{{ route('assignment') }}">Assignment Writing</a>
+                <a href="{{ route('thesis') }}">Best Thesis Writing</a>
+                <a href="{{ route('coursework') }}">Coursework Writing</a>
+                <a href="{{ route('dissertation') }}">Dissertation Writing</a>
+                <a href="{{ route('powerpoint') }}">PowerPoint Presentation Design Services</a>
+                <a href="{{ route('buy.assignment') }}">Buy Assignment </a>
             </div>
         </div>
         <div class="text-center text-md-left col-sm-6 col-lg-3">

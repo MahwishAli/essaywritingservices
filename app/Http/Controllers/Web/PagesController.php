@@ -100,4 +100,64 @@ class PagesController extends Controller
         return view('pages.thank-you');
     }
 
+    public function assignment()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.assignment', compact('fares','paperTypes', 'academic_levels', 'deadlines'));
+    }
+
+    public function thesis()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.thesis', compact('fares','paperTypes', 'academic_levels', 'deadlines'));;
+    }
+
+    public function coursework()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.coursework', compact('fares','paperTypes', 'academic_levels', 'deadlines'));;
+    }
+
+    public function dissertation()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.dissertation', compact('fares','paperTypes', 'academic_levels', 'deadlines'));;
+    }
+
+    public function powerpoint()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.powerpoint', compact('fares','paperTypes', 'academic_levels', 'deadlines'));;
+    }
+
+    public function buyAssignment()
+    {
+        $paperTypes = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id','asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.buy-assignment', compact('fares','paperTypes', 'academic_levels', 'deadlines'));;
+    }
+
 }
